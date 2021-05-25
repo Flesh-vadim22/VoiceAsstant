@@ -54,7 +54,7 @@ class BrowserModel():
     # получение погоды в реальном времени
     def weather(self, city='Ярославль'):
         base_url = "https://api.openweathermap.org/data/2.5/weather?"
-        api_key = 'bd37d72510fa04c2fa2237b9a0f31805'
+        api_key = '' # YOUR API KEY OPENWEATHER
         question = 'Погоду какого города вы бы хотели знать?'
         # city = self.user.recordAudio(question)
         complete_url = base_url + 'appid=' + api_key + '&q=' + city
